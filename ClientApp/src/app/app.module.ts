@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { FormControl, ReactiveFormsModule } from "@angular/forms";
 
 import { AppComponent } from "./app.component";
+import { BaseFormComponent } from "./base.form.component";
 import { NavMenuComponent } from "./nav-menu/nav-menu.component";
 import { HomeComponent } from "./home/home.component";
 import { CitiesComponent } from "./cities/cities.component";
@@ -24,6 +25,7 @@ import { CountryEditComponent } from "./countries/country-edit.component";
     CountriesComponent,
     CityEditComponent,
     CountryEditComponent,
+    BaseFormComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: "ng-cli-universal" }),
